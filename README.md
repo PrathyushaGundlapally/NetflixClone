@@ -1,36 +1,66 @@
-# React Netflix Clone App
+Netflix Clone Application
 
-This project was inpired in Netflix interface and was reproduced for study purposes. Also, it was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+A Netflix clone application built with React, showcasing popular movies and TV shows.
+Features:
 
-# Test yourself
+    Browse trending movies and TV shows.
+    View details of each movie or TV show, including trailers (where available).
+    Responsive design for seamless viewing on different devices.
 
-Follow these steps
+Technologies Used:
 
-* `git clone https://github.com/marquesm91/react-netflix`
-* `npm install` or `yarn`
-* `npm run start` or `yarn start`
+    React
+    HTML5
+    CSS3
+    TMDB API (for fetching movie and TV show data)
+    Firebase (for hosting and authentication)
 
-The application will open your default browser on https://localhost:3000/
+Getting Started:
 
-# About the application
+To get a local copy up and running follow these simple steps.
+Prerequisites:
 
-Besides the default installation with `create-react-app`, two 3rd party library was added:
+    Node.js
+    npm (Node package manager)
 
-* `react-router-dom` found [here](https://github.com/ReactTraining/react-router).
-* `react-items-carousel` found [here](https://github.com/bitriddler/react-items-carousel).
+Installation:
 
-The first one was used to user have a better experience with url navigation and keep react application sync'd. The other one was to ease the use of horizontal carousel like Netflix.
+    Clone the repository:
 
-# Features
+    
 
-* The application consumes the [MovieDB API](https://www.themoviedb.org/documentation/api) to fill the application with real data.
-* The search input on navbar has a nice translate style like netflix and can search for movie names and movies related to a famous person. eg. search for Dory and search for Chris Evans.
-* When you search for something and hit enter you will be redirect to Search page only if your results have at least one movie.
-* For each Movie Card you can add to your favorite list and it was accessible in Minha Lista on navbar. If the movie already exists on your favorite list a check icon will be visible until you choose to remove it.
+git clone https://github.com/your-username/netflix-clone.git
 
-# Ways to improve this project
+Navigate into the project directory:
 
-* Make use of Redux to a better state management
-* Implement another carousel to have a better way to apply style
-* Improve responsiveness to be mobile friendly
-* Handle errors and show a friendly message when search results are null
+
+
+cd netflix-clone
+
+Install npm dependencies:
+
+
+
+npm install
+
+Create a .env file in the root directory and add your TMDB API key:
+
+
+
+REACT_APP_TMDB_API_KEY=your_api_key_here
+
+Replace your_api_key_here with your actual API key obtained from TMDB.
+
+Start the development server:
+
+
+
+    npm start
+
+    Open http://localhost:3000 in your web browser.
+
+Usage:
+
+    Navigate through the interface to explore movies and TV shows.
+    Click on a movie or TV show to see more details, including trailers and descriptions.
+    Enjoy a seamless browsing experience similar to Netflix.
